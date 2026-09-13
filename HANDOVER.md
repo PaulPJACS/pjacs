@@ -52,8 +52,8 @@ turning back on (it doesn't carry over):
 5. A couple of minutes later the page shows your website's address. Click
    "Visit site" to see it live.
 
-**To use your own domain (www.pjacs.co.uk):** on that same Pages screen,
-type `www.pjacs.co.uk` into the Custom domain box and save. Then log into
+**To use your own domain (pjacs.co.uk):** on that same Pages screen,
+type `pjacs.co.uk` into the Custom domain box and save. Then log into
 your domain company (wherever you pay for pjacs.co.uk) and point the domain
 at GitHub — ask Claude "how do I point my domain at GitHub Pages?" and it
 will walk you through the exact settings, or your domain company's support

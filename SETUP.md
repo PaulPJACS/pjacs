@@ -6,7 +6,7 @@
    the Google account that should own the data (Paul's ideally).
 2. **Admin → Create → Property** — name it "PJA Carpentry Services", country
    United Kingdom, currency GBP.
-3. Add a **Web data stream** for `https://www.pjacs.co.uk` and copy the
+3. Add a **Web data stream** for `https://pjacs.co.uk` and copy the
    **Measurement ID** (looks like `G-ABC123XYZ`).
 4. Open `assets/js/consent.js` and replace:
 
@@ -25,12 +25,12 @@
 ## 2. Google Search Console (+ site verification)
 
 1. Go to [search.google.com/search-console](https://search.google.com/search-console),
-   add a **URL prefix** property for `https://www.pjacs.co.uk`.
+   add a **URL prefix** property for `https://pjacs.co.uk`.
 2. Choose the **HTML tag** verification method and copy the
    `google-site-verification` meta tag.
 3. Paste it into the `<head>` of `index.html` (there's a placeholder comment
    marking the spot).
-4. Once verified, submit `https://www.pjacs.co.uk/sitemap.xml` under
+4. Once verified, submit `https://pjacs.co.uk/sitemap.xml` under
    **Sitemaps**.
 
 ## 3. Google Site Kit
@@ -74,10 +74,10 @@ Fix before launch:
 
 - If the existing host offers Let's Encrypt, enable auto-renewal — free.
 - Or host this repo on **GitHub Pages** (Settings → Pages → deploy from
-  branch), add `www.pjacs.co.uk` as the custom domain (this creates a `CNAME`
+  branch), add `pjacs.co.uk` as the custom domain (this creates a `CNAME`
   file), point the domain's DNS (`CNAME www → ictevangelist.github.io`, plus
   the four `A` records for the apex), and tick "Enforce HTTPS" — certificates
   are issued and renewed automatically.
 
-After launch, confirm `https://www.pjacs.co.uk` loads with a padlock and that
+After launch, confirm `https://pjacs.co.uk` loads with a padlock and that
 `http://` and the bare domain both redirect to it.
