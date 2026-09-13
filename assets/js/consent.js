@@ -6,7 +6,7 @@
 (function () {
   "use strict";
 
-  var GA_MEASUREMENT_ID = "G-XXXXXXXXXX"; // TODO: replace with Paul's GA4 Measurement ID
+  var GA_MEASUREMENT_ID = "G-L3VBRE5JH5";
   var CONSENT_KEY = "pjacs-consent";
 
   window.dataLayer = window.dataLayer || [];
