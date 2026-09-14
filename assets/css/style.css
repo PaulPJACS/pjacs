@@ -1,5 +1,5 @@
 /* ==========================================================================
-   PJA Carpentry Services — site styles
+   PJA Carpentry Services site styles
    A warm, crafted, modern look: deep charcoal, cream, oak & brass.
    ========================================================================== */
 
@@ -291,12 +291,14 @@ svg.logo { height: 62px; width: auto; display: block; }
   padding-bottom: clamp(2rem, 5vw, 3.6rem);
   color: #fff;
 }
-.hero-full-content h1 {
+.hero-full-content h1,
+.hero-full-content h2 {
   color: #fff;
   max-width: 18ch;
   text-shadow: 0 2px 18px rgba(10, 18, 28, 0.55);
 }
-.hero-full-content h1 em { color: #a8d0f0; font-style: italic; }
+.hero-full-content h1 em,
+.hero-full-content h2 em { color: #a8d0f0; font-style: italic; }
 .hero-full-content .lead {
   color: #e6eef7;
   text-shadow: 0 1px 12px rgba(10, 18, 28, 0.6);
