@@ -1,6 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-  <rect x="2" y="2" width="44" height="44" rx="10" fill="#1c2f42"/>
-  <path d="M9 22 L24 12 L39 22" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="24" y="33" text-anchor="middle" font-family="Poppins, Arial, Helvetica, sans-serif" font-style="italic" font-weight="700" font-size="14" letter-spacing="1.5" fill="#7fb2d9">PJA</text>
-  <rect x="11" y="37" width="26" height="2.6" rx="1.3" fill="#7fb2d9"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="PJA Carpentry Services favicon">
+  <title>PJA Carpentry Services</title>
+  <style>
+    .ink { fill: #0B3152; }
+    @media (prefers-color-scheme: dark) { .ink { fill: #dfe8f2; } }
+  </style>
+
+  <!-- Transparent background -->
+
+  <!-- Roof mark -->
+  <path class="ink" d="M3 14.8 L16 7.2 L16 10.4 L6 16.3 L6 20.8 L3 20.8 Z"/>
+  <rect class="ink" x="7.4" y="9.6" width="2.8" height="4.2"/>
+  <path d="M16 7.2 L29 14.8 L29 18.1 L16 10.4 Z" fill="#B9783F"/>
+
+  <!-- Clear PJA lettering -->
+  <text x="16" y="28"
+        text-anchor="middle"
+        font-family="Poppins, Arial, sans-serif"
+        font-size="11.5"
+        font-weight="700"
+        letter-spacing="0.3"
+        class="ink">PJA</text>
 </svg>
