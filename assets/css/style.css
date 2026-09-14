@@ -807,6 +807,47 @@ form.contact-form {
 .page-hero { padding: clamp(2.6rem, 6vw, 4rem) 0 clamp(1.6rem, 4vw, 2.6rem); }
 
 /* --------------------------------------------------------------------------
+   FAQ accordion
+   -------------------------------------------------------------------------- */
+.faq-list { max-width: 50rem; margin: 0 auto; }
+.faq-item {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--walnut);
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: "";
+  flex: none;
+  width: 12px;
+  height: 12px;
+  border-right: 2.5px solid var(--oak);
+  border-bottom: 2.5px solid var(--oak);
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+  margin-top: -6px;
+}
+.faq-item[open] summary::after { transform: rotate(225deg); margin-top: 6px; }
+.faq-item summary:hover { color: var(--oak-deep); }
+.faq-item .faq-answer { padding: 0 1.5rem 1.35rem; }
+.faq-item .faq-answer p { color: var(--ink-soft); margin-bottom: 0.5rem; }
+
+/* --------------------------------------------------------------------------
    Reveal animation
    -------------------------------------------------------------------------- */
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.6s ease, transform 0.6s ease; }
