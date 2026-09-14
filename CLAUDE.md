@@ -20,6 +20,10 @@ site updates in ~2 minutes.
   British English. Rewrites should sound like Paul, not a brochure.
 - **Bathrooms are deliberately downplayed** (one mention inside Major
   Projects). Don't add bathroom sections or options without being asked.
+- **No prices on the FAQ page (or anywhere else).** Every job is priced
+  individually; the answer to cost questions is always the free,
+  no obligation quotation. Keep `faq.html` copy and its FAQPage JSON-LD
+  in sync if either changes.
 
 ## Positioning
 
