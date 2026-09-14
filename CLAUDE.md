@@ -42,9 +42,10 @@ update the number occasionally), Featured on the Best of Gloucester,
   consent tick, redirects to `thanks.html`.
 - **Logo**: transparent PNGs in `assets/images/` — `logo.png` (navy, for
   light backgrounds, also referenced in the LocalBusiness schema) and
-  `logo-footer.png` (light-blue recolour for the dark footer). Roofline
-  mark with oak rafter, "BUILT AROUND YOU" tagline. Supplied by Mark;
-  regenerate both variants together if it ever changes.
+  `logo-footer.png` (white variant for the dark footer). Roofline mark
+  with oak rafter, "BUILT AROUND YOU" tagline. Both variants supplied by
+  Mark as transparent PNGs; ask him for matching artwork if it changes.
+  Favicon update to match is with Mark (he is sorting an .ico).
 - **Images**: optimise before adding (max 1600px, progressive JPEG, ~80
   quality, EXIF rotation applied). Project photos live in `assets/images/`
   and `assets/images/latest/`.
