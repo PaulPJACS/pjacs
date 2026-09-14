@@ -121,16 +121,16 @@ p { margin: 0 0 1em; }
   text-decoration: none;
   color: var(--ink);
 }
-svg.logo { height: 62px; width: auto; display: block; }
+svg.logo { height: 78px; width: auto; display: block; }
 .logo-pja { font-family: var(--font-display); fill: var(--oak-deep); }
 .logo-sub { font-family: var(--font-body); fill: var(--ink); }
 .logo-roof { stroke: var(--oak); }
 .logo-base { stroke: var(--oak); }
-.logo--footer { height: 72px; margin-bottom: 0.6rem; }
+.logo--footer { height: 90px; margin-bottom: 0.6rem; }
 .logo--footer .logo-pja { fill: #7fb2d9; }
 .logo--footer .logo-sub { fill: #dfe8f2; }
 .logo--footer .logo-roof, .logo--footer .logo-base { stroke: #7fb2d9; }
-@media (max-width: 720px) { svg.logo { height: 52px; } }
+@media (max-width: 720px) { svg.logo { height: 65px; } }
 
 .nav-links {
   display: flex;
