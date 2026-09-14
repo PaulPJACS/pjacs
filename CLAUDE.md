@@ -67,7 +67,7 @@ update the number occasionally), Featured on the Best of Gloucester,
 
 ## Open items
 
-- Confirm the "£2m public liability" figure and the old-site line about
-  the Gloucester Kitchen Centre with Paul.
+- The "£2m public liability" figure is confirmed by Paul (Sep 2026).
+  Still to confirm: the old-site line about the Gloucester Kitchen Centre.
 - A "kitchen brands" divider strip for the services page was designed but
   parked — real brand logos needed if revived.
