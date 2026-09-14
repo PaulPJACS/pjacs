@@ -40,8 +40,11 @@ update the number occasionally), Featured on the Best of Gloucester,
   Consent-gated (UK GDPR) — never load it before the banner is accepted.
 - **Contact form**: posts to FormSubmit → paul@pjacs.co.uk, honeypot +
   consent tick, redirects to `thanks.html`.
-- **Logo**: inline SVG roofline mark (in every page header/footer),
-  modernised from the van livery. Favicon set matches.
+- **Logo**: transparent PNGs in `assets/images/` — `logo.png` (navy, for
+  light backgrounds, also referenced in the LocalBusiness schema) and
+  `logo-footer.png` (light-blue recolour for the dark footer). Roofline
+  mark with oak rafter, "BUILT AROUND YOU" tagline. Supplied by Mark;
+  regenerate both variants together if it ever changes.
 - **Images**: optimise before adding (max 1600px, progressive JPEG, ~80
   quality, EXIF rotation applied). Project photos live in `assets/images/`
   and `assets/images/latest/`.
