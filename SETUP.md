@@ -22,16 +22,15 @@
 > analytics" in the cookie banner. This is required under UK GDPR/PECR — don't
 > bypass it.
 
-## 2. Google Search Console (+ site verification)
+## 2. Google Search Console — DONE
 
-1. Go to [search.google.com/search-console](https://search.google.com/search-console),
-   add a **URL prefix** property for `https://pjacs.co.uk`.
-2. Choose the **HTML tag** verification method and copy the
-   `google-site-verification` meta tag.
-3. Paste it into the `<head>` of `index.html` (there's a placeholder comment
-   marking the spot).
-4. Once verified, submit `https://pjacs.co.uk/sitemap.xml` under
-   **Sitemaps**.
+Verified as a **Domain property** for `pjacs.co.uk` via a DNS TXT record at
+IONOS (added automatically through Domain Connect), under Paul's Google
+account. No verification tag lives in the HTML. Do not remove the
+`google-site-verification` TXT record from the IONOS DNS.
+
+Sitemap: `https://pjacs.co.uk/sitemap.xml` — submit/re-check it under
+**Sitemaps** in Search Console.
 
 ## 3. Google Site Kit
 

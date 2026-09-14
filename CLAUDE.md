@@ -49,7 +49,11 @@ update the number occasionally), Featured on the Best of Gloucester,
   Testimonials — keep it consent-safe).
 - **Domain/DNS**: IONOS holds DNS (4 × A records to GitHub Pages IPs, www
   CNAME). Mail (MX/SPF/DKIM/DMARC) is IONOS mail — never touch those
-  records. Canonical domain is bare `pjacs.co.uk`.
+  records, and leave Google's site-verification TXT record alone too.
+  Canonical domain is bare `pjacs.co.uk`.
+- **Search Console**: verified as a Domain property via DNS under Paul's
+  Google account (same account as GA4 and the Business Profile). No
+  verification tag needed in the HTML.
 
 ## Docs in this repo
 
@@ -59,8 +63,6 @@ update the number occasionally), Featured on the Best of Gloucester,
 
 ## Open items
 
-- Search Console verification token still to be added to `index.html`
-  (placeholder comment in the `<head>`).
 - Confirm the "£2m public liability" figure and the old-site line about
   the Gloucester Kitchen Centre with Paul.
 - A "kitchen brands" divider strip for the services page was designed but
