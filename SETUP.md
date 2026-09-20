@@ -1,6 +1,14 @@
 # Setup guide — analytics, Site Kit, contact form, hosting
 
-## 1. Google Analytics 4
+**Status: setup is complete.** Analytics, Search Console, the contact form
+and HTTPS hosting are all live. This file is kept as reference for how each
+piece was wired up and what to do if one ever needs redoing.
+
+## 1. Google Analytics 4 — DONE
+
+Live with Measurement ID `G-L3VBRE5JH5` in `assets/js/consent.js`, under
+Paul's Google account. He can see the numbers in the Google Analytics app.
+The original setup steps follow, for reference only.
 
 1. Go to [analytics.google.com](https://analytics.google.com) and sign in with
    the Google account that should own the data (Paul's ideally).
@@ -43,15 +51,14 @@ the plugin directory, click "Start setup", and connect Search Console and
 Analytics with the same Google account as above — then remove the hand-rolled
 gtag code so it isn't counted twice.
 
-## 4. Contact form (FormSubmit → paul@pjacs.co.uk)
+## 4. Contact form (FormSubmit → paul@pjacs.co.uk) — DONE
 
-The form in `contact.html` posts to `https://formsubmit.co/paul@pjacs.co.uk` —
-a free relay service that emails each submission; no server code needed.
+The form in `contact.html` posts to FormSubmit, a free relay service that
+emails each submission; no server code needed.
 
-**One-time activation:** the first time someone submits the form, FormSubmit
-sends an activation email to paul@pjacs.co.uk. Paul must click the confirm
-link once; every submission after that is delivered normally. Do a test
-submission after go-live and activate straight away.
+**Activation is complete** and enquiries are being delivered. Nothing to do
+unless the destination address ever changes, in which case the new address
+needs activating the same way (first submission triggers a confirm email).
 
 **Optional hardening (recommended):** after activation, FormSubmit's email
 shows a random alias for the address (like `formsubmit.co/a1b2c3d4...`).
@@ -66,17 +73,18 @@ field — update it if the domain ever changes).
 [formspree.io](https://formspree.io) pointing at paul@pjacs.co.uk and change
 the form `action` to the endpoint they give you. Nothing else needs to change.
 
-## 5. Hosting & HTTPS
+## 5. Hosting & HTTPS — DONE
 
-The current pjacs.co.uk certificate has **lapsed** — browsers show warnings.
-Fix before launch:
+Live on **GitHub Pages**, served from the
+`claude/pauls-carpentry-website-flxsyt` branch with `pjacs.co.uk` as the
+custom domain (see the `CNAME` file). DNS is at IONOS: four `A` records for
+the apex plus the `www` CNAME. "Enforce HTTPS" is on, so certificates are
+issued and renewed automatically.
 
-- If the existing host offers Let's Encrypt, enable auto-renewal — free.
-- Or host this repo on **GitHub Pages** (Settings → Pages → deploy from
-  branch), add `pjacs.co.uk` as the custom domain (this creates a `CNAME`
-  file), point the domain's DNS (`CNAME www → ictevangelist.github.io`, plus
-  the four `A` records for the apex), and tick "Enforce HTTPS" — certificates
-  are issued and renewed automatically.
+## 6. Keeping internal docs off the live site
 
-After launch, confirm `https://pjacs.co.uk` loads with a padlock and that
-`http://` and the bare domain both redirect to it.
+GitHub Pages serves every file on the branch, so `CLAUDE.md` and the other
+markdown docs were originally fetchable at `pjacs.co.uk/CLAUDE.md`.
+`_config.yml` now excludes them from the Jekyll build and they return 404.
+**Any new internal doc must be added to that exclude list**, or it will be
+published and crawlable.

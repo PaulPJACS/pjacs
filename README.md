@@ -14,9 +14,12 @@ works.
 | `index.html` | Home — hero, services overview, featured work, testimonials |
 | `services.html` | Kitchens, bedrooms, bespoke carpentry, major projects, maintenance |
 | `portfolio.html` | Filterable gallery of real project photos with lightbox |
-| `testimonials.html` | 16 genuine client testimonials from the previous site |
+| `testimonials.html` | 16 genuine client testimonials, Google reviews and a click-to-load Facebook embed |
 | `about.html` | Paul's background, values, service area |
+| `faq.html` | Common questions, with FAQPage structured data. No prices |
 | `contact.html` | Contact form (delivers to paul@pjacs.co.uk) |
+| `work-*.html` | Ten project pages, one per job, linked from the homepage gallery |
+| `review.html` | Redirect to the Google review page, for the QR code sticker |
 | `privacy.html` / `cookies.html` | UK GDPR privacy policy & cookie policy |
 | `thanks.html` | Post-submission thank-you page |
 | `404.html` | Not-found page |
@@ -25,26 +28,27 @@ Assets live in `assets/` (css, js, images). All project photos were taken from
 the previous site, rotation-corrected and optimised for the web (max 1600 px,
 progressive JPEG).
 
-## Before go-live — checklist
+## Go-live — complete
 
-1. **Google Analytics** — put the real GA4 Measurement ID in
-   `assets/js/consent.js` (see `SETUP.md`). Analytics only loads after cookie
-   consent, as UK law requires.
-2. **Contact form** — the form posts to FormSubmit for delivery to
-   `paul@pjacs.co.uk`. The **first** submission triggers a one-time activation
-   email to Paul's inbox — he must click the link in it once (see `SETUP.md`).
-3. **HTTPS** — the old site's certificate has lapsed. Renew or re-issue the
-   certificate with the hosting provider before launch (Let's Encrypt is free);
-   the privacy policy promises HTTPS.
-4. **Verify details** — the site currently shows: email paul@pjacs.co.uk;
-   "30+ years" experience; "£2m public liability insurance" (from the old
-   site — confirm the current figure); founding year 2010. Phone numbers and
-   the street address were deliberately removed at Mark's request — contact
-   is via the form only.
-5. **Limited company details** — if the business trades as a limited company,
-   UK law requires the registered name, number and office address on the
-   website. Add them to the footer once confirmed.
-6. **Search Console / Site Kit** — see `SETUP.md`.
+The site is live at https://pjacs.co.uk. Everything on the original launch
+checklist is done:
+
+1. **Google Analytics** — live, ID `G-L3VBRE5JH5` in `assets/js/consent.js`,
+   consent-gated as UK law requires.
+2. **Contact form** — FormSubmit activated, enquiries delivering to
+   `paul@pjacs.co.uk`.
+3. **HTTPS** — GitHub Pages with Enforce HTTPS on; certificates auto-renew.
+4. **Details verified** — "30+ years", "£2m public liability", founding year
+   2010 and the Gloucester Kitchen Centre line are all confirmed. Phone
+   numbers and the street address are deliberately absent; contact is the
+   form plus email.
+5. **Company details** — Paul is a sole trader, so no registered company
+   details are required in the footer.
+6. **Search Console** — verified as a Domain property via DNS. See
+   `SETUP.md`.
+
+Note that `_config.yml` keeps this file and the other internal docs out of
+the published site. Add any new internal doc to its exclude list.
 
 ## Editing tips
 

@@ -32,33 +32,18 @@ company for, same as always.
    fine to start; the paid plan (about £15/month) gives you much more usage
    if you find yourself using it a lot.
 
-## 3. Getting the website folder from Mark
+## 3. The setting up is already done
 
-Mark will "transfer" the repository to your GitHub account. You'll get an
-**email from GitHub** with a button to accept the transfer — click it within
-24 hours. After that, the whole website folder belongs to your account, and
-Mark no longer controls it.
+You don't need to do any of this — Mark has finished it all:
 
-## 4. Switching the website on (one-time, 2 minutes)
+- The website folder is transferred to your GitHub account.
+- The site is switched on and live at **pjacs.co.uk**, with the padlock.
+- Google Analytics is running, so you can see your visitor numbers.
+- Your contact form is switched on and enquiries come to your inbox.
+- Google knows about the site and lists it properly.
 
-After the transfer, the "publish this folder as a website" switch needs
-turning back on (it doesn't carry over):
-
-1. Go to your repository on GitHub (github.com/YOUR-USERNAME/pjacs).
-2. Click **Settings** (top of the page) → **Pages** (left-hand menu).
-3. Under **Source**, choose **Deploy from a branch**.
-4. Pick the branch named `claude/pauls-carpentry-website-flxsyt` and folder
-   `/ (root)`, then **Save**.
-5. A couple of minutes later the page shows your website's address. Click
-   "Visit site" to see it live.
-
-**To use your own domain (pjacs.co.uk):** on that same Pages screen,
-type `pjacs.co.uk` into the Custom domain box and save. Then log into
-your domain company (wherever you pay for pjacs.co.uk) and point the domain
-at GitHub — ask Claude "how do I point my domain at GitHub Pages?" and it
-will walk you through the exact settings, or your domain company's support
-can do it. Finally tick **Enforce HTTPS** on the Pages screen so the site
-gets the padlock in browsers, free and automatic.
+So there is nothing to set up. Skip straight to the next section, which is
+the only part you actually need.
 
 ## 5. How to change anything on the site
 
@@ -82,21 +67,10 @@ If a change comes out wrong, just tell Claude — *"that's not what I meant,
 put it back and try it like this…"*. Every change is saved in history, so
 anything can always be undone.
 
-## 6. Three one-time jobs to finish the site (ask Claude to help with each)
+## 6. Nothing outstanding
 
-1. **Contact form activation** — the form sends enquiries to
-   paul@pjacs.co.uk through a free service called FormSubmit. The very first
-   time someone submits the form, FormSubmit emails you a confirmation link —
-   **click it once** and every enquiry after that lands in your inbox. Do a
-   test submission yourself on day one.
-2. **Google Analytics** — a free Google tool that shows how many people visit
-   the site and which pages they read. Follow `SETUP.md` in this folder, or
-   just tell Claude: *"set up Google Analytics for my site, here's my
-   Measurement ID"* once you've created the free account at
-   analytics.google.com.
-3. **Google Search Console** — tells Google to list your site properly in
-   search results. Again, `SETUP.md` has the steps, and Claude can walk you
-   through it in five minutes.
+The contact form, Google Analytics and Google Search Console are all set up
+and working. There is no job list waiting for you.
 
 ## 7. Things worth knowing
 

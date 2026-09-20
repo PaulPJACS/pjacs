@@ -71,7 +71,8 @@ update the number occasionally), Featured on the Best of Gloucester,
   `logo-footer.png` (white variant for the dark footer). Roofline mark
   with oak rafter, "BUILT AROUND YOU" tagline. Both variants supplied by
   Mark as transparent PNGs; ask him for matching artwork if it changes.
-  Favicon update to match is with Mark (he is sorting an .ico).
+  Matching favicon set is done: `favicon.svg` (dark-mode aware),
+  `favicon.ico` (16/32/48) and a 180px `apple-touch-icon.png`.
 - **Images**: optimise before adding (max 1600px, progressive JPEG, ~80
   quality, EXIF rotation applied). Project photos live in `assets/images/`
   and `assets/images/latest/`.
@@ -97,7 +98,20 @@ update the number occasionally), Featured on the Best of Gloucester,
 
 ## Open items
 
-- The "£2m public liability" figure is confirmed by Paul (Sep 2026).
-  Still to confirm: the old-site line about the Gloucester Kitchen Centre.
 - A "kitchen brands" divider strip for the services page was designed but
-  parked — real brand logos needed if revived.
+  parked. Reviving it needs the actual brand logo files plus the brands
+  Paul wants to list.
+- Paul is a **sole trader**, not a limited company, so no registered
+  company details are required in the footer. Settled, don't revisit.
+
+Confirmed and closed: the "£2m public liability" figure and the old-site
+Gloucester Kitchen Centre line are both verified by Paul and Mark (Sep
+2026). GA4, Search Console, HTTPS, the contact form activation and the
+favicon set are all done and live.
+
+## Internal docs are not published
+
+`_config.yml` excludes `CLAUDE.md`, `HANDOVER.md`, `README.md` and
+`SETUP.md` from the GitHub Pages build, so they 404 on the live site
+rather than being readable by crawlers. Any new internal doc must be added
+to that exclude list.
