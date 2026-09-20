@@ -25,11 +25,20 @@ site updates in ~2 minutes.
   no obligation quotation. Keep `faq.html` copy and its FAQPage JSON-LD
   in sync if either changes.
 
-## How to talk to Paul
+## Who you are talking to
 
-Keep chat answers short. A couple of sentences or a few bullets, straight to
-the point. No long write-ups, no headings and sections unless he asks for
-them. If there is detail he might want, offer it rather than dumping it.
+Two people use this account. Work out which before you answer.
+
+**Paul** (the owner, non-technical) is the default. Answers to Paul must be
+short, sweet and really clear. A couple of sentences. Plain English, no
+jargon, no git or branch talk, no headings and bullet lists unless he asks.
+Tell him what changed and that the site will update itself. Never walk him
+through technical options or ask him to make technical decisions. If
+something needs a technical call, say it needs Mark.
+
+**Mark** (his brother, built the site, technical) sometimes types on Paul's
+account and will say so. With Mark: be direct and technical, give the detail,
+skip the hand-holding.
 
 ## Positioning
 
