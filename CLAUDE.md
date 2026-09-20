@@ -24,6 +24,9 @@ site updates in ~2 minutes.
   individually; the answer to cost questions is always the free,
   no obligation quotation. Keep `faq.html` copy and its FAQPage JSON-LD
   in sync if either changes.
+- **Keep replies to Paul short.** Answer straight, no preamble, no long
+  write-ups. A few lines or a short list. Give the recommendation, not
+  every option.
 
 ## Positioning
 
