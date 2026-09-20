@@ -16,6 +16,12 @@ its own branch, merge back to this one and delete the spare.
   (the van) are fine.
 - **No street address anywhere.** Service area wording only: "Serving
   Gloucestershire, Cotswolds and Forest of Dean".
+- **The email address never appears in the page source.** Don't write
+  `mailto:paul@pjacs.co.uk` or the bare address into HTML, JSON-LD or
+  `llms.txt`. Use `<a data-email href="contact.html">` (add
+  `data-email-text` to show the address as the link text) and `main.js`
+  builds it at runtime, so scrapers get nothing and non-JS visitors get
+  the contact form.
 - **The word "joinery"/"joiner" is banned.** The brand is exactly
   "PJA Carpentry Services".
 - **Never call design work free.** Quotations are free; design and
