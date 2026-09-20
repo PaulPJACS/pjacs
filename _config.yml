@@ -1,0 +1,10 @@
+# GitHub Pages build config.
+#
+# Files listed here stay in the repo but are NOT published to pjacs.co.uk.
+# These are internal notes; serving them would let crawlers and AI bots read
+# them at pjacs.co.uk/CLAUDE.md and the like. Add any new internal doc here.
+exclude:
+  - CLAUDE.md
+  - HANDOVER.md
+  - README.md
+  - SETUP.md
