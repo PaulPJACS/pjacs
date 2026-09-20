@@ -2,8 +2,12 @@
 
 Static marketing site for PJA Carpentry Services (Paul Anderson), Gloucester.
 Live at https://pjacs.co.uk via GitHub Pages. No build step: plain HTML, CSS
-(`assets/css/style.css`), vanilla JS. Push to the deployed branch and the live
-site updates in ~2 minutes.
+(`assets/css/style.css`), vanilla JS.
+
+**Work directly on `claude/pauls-carpentry-website-flxsyt`.** That is the
+branch GitHub Pages serves: push to it and the live site updates in ~2
+minutes. Don't spread work across extra branches. If a session starts you on
+its own branch, merge back to this one and delete the spare.
 
 ## Hard rules — never break these
 
@@ -24,9 +28,6 @@ site updates in ~2 minutes.
   individually; the answer to cost questions is always the free,
   no obligation quotation. Keep `faq.html` copy and its FAQPage JSON-LD
   in sync if either changes.
-- **Keep replies to Paul short.** Answer straight, no preamble, no long
-  write-ups. A few lines or a short list. Give the recommendation, not
-  every option.
 
 ## Who you are talking to
 
