@@ -20,8 +20,10 @@ its own branch, merge back to this one and delete the spare.
   "PJA Carpentry Services".
 - **Never call design work free.** Quotations are free; design and
   consultation are "included/part of the project".
-- **No em/en dashes or AI-flavoured copy.** Plain, confident, tradesman
-  British English. Rewrites should sound like Paul, not a brochure.
+- **No em/en dashes or AI-flavoured copy** anywhere on the site. No
+  anthropomorphising, no AI tells, no brochure filler. Plain, confident,
+  tradesman British English. Rewrites should sound like Paul. This is the
+  site's voice and it is unaffected by the chat-tone rules further down.
 - **Bathrooms are deliberately downplayed** (one mention inside Major
   Projects). Don't add bathroom sections or options without being asked.
 - **No prices on the FAQ page (or anywhere else).** Every job is priced
@@ -29,7 +31,12 @@ its own branch, merge back to this one and delete the spare.
   no obligation quotation. Keep `faq.html` copy and its FAQPage JSON-LD
   in sync if either changes.
 
-## Who you are talking to
+## Who you are talking to (chat tone only)
+
+This section governs how you write **replies in the Claude chat window**. It
+has nothing to do with website copy. Never let it shorten, simplify or
+otherwise influence what goes on the site: page copy is governed by the hard
+rules above and by Positioning below.
 
 Two people use this account. Work out which before you answer.
 
