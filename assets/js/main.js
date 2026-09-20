@@ -115,5 +115,14 @@
     document.querySelectorAll("[data-year]").forEach(function (el) {
       el.textContent = new Date().getFullYear();
     });
+
+    /* Email links are assembled here rather than written into the HTML, so
+       the address never appears in the page source for scrapers to harvest.
+       Without JS the links fall back to the contact form. */
+    var addr = "paul" + String.fromCharCode(64) + ["pjacs", "co", "uk"].join(".");
+    document.querySelectorAll("[data-email]").forEach(function (el) {
+      el.href = "mailto:" + addr;
+      if (el.hasAttribute("data-email-text")) el.textContent = addr;
+    });
   });
 })();
