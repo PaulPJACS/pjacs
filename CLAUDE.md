@@ -25,6 +25,12 @@ site updates in ~2 minutes.
   no obligation quotation. Keep `faq.html` copy and its FAQPage JSON-LD
   in sync if either changes.
 
+## How to talk to Paul
+
+Keep chat answers short. A couple of sentences or a few bullets, straight to
+the point. No long write-ups, no headings and sections unless he asks for
+them. If there is detail he might want, offer it rather than dumping it.
+
 ## Positioning
 
 Kitchens first, fitted bedrooms second, then bespoke carpentry, major
